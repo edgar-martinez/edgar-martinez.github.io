@@ -60,6 +60,7 @@ img {
 .landing {
     position: relative;
     height: 100vh;
+    padding-top: 5vh;
 
     &-inner {
         color: $dark-color;
@@ -78,7 +79,7 @@ img {
         max-width: 120px;
         border-radius: 50%;
         contain: content;
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
 
         box-shadow: 1px 1px 4px $dark-color;
     }
@@ -89,8 +90,8 @@ img {
     }
 
     .img-container {
-        max-height: 150px;
-        max-width: 150px;
+        max-height: 120px;
+        max-width: 120px;
         padding: 0 1rem;
         // border: solid 1px black;
     }
