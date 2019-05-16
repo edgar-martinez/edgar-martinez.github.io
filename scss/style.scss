@@ -59,7 +59,7 @@ img {
 // Landing
 .landing {
     position: relative;
-    height: 90vh;
+    height: 100vh;
 
     &-inner {
         color: $dark-color;
@@ -71,6 +71,16 @@ img {
         margin: auto;
         align-items: center;
         justify-content: center;
+    }
+
+    .avatar {
+        max-height: 120px;
+        max-width: 120px;
+        border-radius: 50%;
+        contain: content;
+        margin-bottom: 1rem;
+
+        box-shadow: 1px 1px 4px $dark-color;
     }
 
     .img-grid {
